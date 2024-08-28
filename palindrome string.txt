@@ -1,0 +1,19 @@
+
+class HelloWorld {
+    //Palindrome string
+    public static void main(String[] args) {
+        //Palindrome
+        String str= "MALAYALAM";
+        int l =str.length();
+        for(int i=0;i<l/2;i++){
+            if(str.charAt(i)==str.charAt(l-1)){
+                System.out.println(str+" is palindrome");
+                break;
+            }else{
+                System.out.println(str+" is not palindrome");
+                break;
+            }
+        }
+       
+    }
+}

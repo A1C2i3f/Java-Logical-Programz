@@ -1,0 +1,11 @@
+class HelloWorld {
+// prime numbers upto 100
+    public static void main(String[] args) {
+        int num;
+        for(num=2;num<=100;num++){
+        if(num%2!=0){
+            System.out.println(num);
+        }
+    }
+}
+}
